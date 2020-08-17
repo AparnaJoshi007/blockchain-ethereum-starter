@@ -1,12 +1,11 @@
 {
-  "name": "pixavault-block-chain",
+  "name": "blockchain-ethereum-starter",
   "version": "1.0.0",
-  "description": "Blockchain client app",
+  "description": "Blockchain Ethereum Starter Kit",
   "main": "index.js",
-  "repository": "git@github.com:katanaorg/pixavault-block-chain.git",
-  "author": "Aparna <aparna.joshi@citrix.com>",
+  "repository": "git@github.com:AparnaJoshi007/blockchain-ethereum-starter.git",
+  "author": "Aparna <aparnajoshi.88@gmail.com>",
   "license": "MIT",
-  "private": true,
   "scripts": {
     "start": "webpack-dev-server --mode development --open",
     "test": "truffle tests",
@@ -21,5 +20,8 @@
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
+  },
+  "publishConfig": { 
+    "registry": "https://npm.pkg.github.com/" 
   }
 }
