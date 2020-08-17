@@ -1,0 +1,25 @@
+{
+  "name": "pixavault-block-chain",
+  "version": "1.0.0",
+  "description": "Blockchain client app",
+  "main": "index.js",
+  "repository": "git@github.com:katanaorg/pixavault-block-chain.git",
+  "author": "Aparna <aparna.joshi@citrix.com>",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "start": "webpack-dev-server --mode development --open",
+    "test": "truffle tests",
+    "truffle": "truffle develop"
+  },
+  "dependencies": {
+    "global": "^4.4.0",
+    "html-loader": "^1.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "truffle": "^5.1.40",
+    "web3": "^1.2.11",
+    "webpack": "^4.44.1",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0"
+  }
+}

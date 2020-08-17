@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <title>Dapp</title>
+  </head>
+  <body style="margin:2em">
+    <h1>Welcome to dapp.</h1>
+
+    <h2>Send money through contract:</h2>
+    <form id="contract-form">
+      <div class="form-group">
+        <label for="Sender Address">Sender ETH Address</label>
+        <input value="<test_account_address>" type="text" class="form-control" id="fromAddress" aria-describedby="fromAddressHelp" placeholder="Enter your address" required="true">
+        <small id="fromAddressHelp" class="form-text text-muted">Enter your wallet address. Note: you will need to approve this with your private key.</small>
+      </div>
+        <div class="form-group">
+          <label for="Receiver Address">Receiver ETH Address</label>
+          <input value="" type="text" class="form-control" id="toAddress" aria-describedby="toAddressHelp" placeholder="Enter the receipient address" required="true">
+          <small id="toAddressHelp" class="form-text text-muted">Enter the wallet address of the recipient.</small>
+        </div>
+          <div class="form-group">
+            <label for="Amount">Amount</label>
+            <input value="" type="text" class="form-control" id="amount" aria-describedby="amountHelp" placeholder="Amount to send in ETH" required="true">
+            <small id="amountHelp" class="form-text text-muted">How much you want to send in ETH.</small>
+          </div>
+      <button type="submit" class="btn btn-primary">Submit</button>
+      <div id="deposit-result">Click the Submit button to deposit your ETH to the contract.</div>
+    </form>
+    <hr>
+    <h2>Balance:</h2>
+    <form id="get-balance-form">
+      <button type="submit" class="btn btn-primary">Get Balance</button>
+      <div id="the-balance">Click Button to get the current contract balance.</div>
+    </form>
+
+    <h2>Blocks:</h2>
+    <form id="get-blocks-form">
+      <button type="submit" class="btn btn-primary">Get Blocks</button>
+      <div id="the-balance">Click Button to get the print transaction id of current blocks in the network in console.</div>
+    </form>
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
+    </body>
+</html>
