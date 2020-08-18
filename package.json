@@ -1,9 +1,12 @@
 {
-  "name": "blockchain-ethereum-starter",
+  "name": "@aparnajoshi007/blockchain-ethereum-starter",
   "version": "1.0.0",
   "description": "Blockchain Ethereum Starter Kit",
   "main": "index.js",
-  "repository": "git@github.com:AparnaJoshi007/blockchain-ethereum-starter.git",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AparnaJoshi007/blockchain-ethereum-starter.git"
+  },
   "author": "Aparna <aparnajoshi.88@gmail.com>",
   "license": "MIT",
   "scripts": {
@@ -21,7 +24,20 @@
     "webpack-cli": "^3.3.12",
     "webpack-dev-server": "^3.11.0"
   },
-  "publishConfig": { 
-    "registry": "https://npm.pkg.github.com/" 
-  }
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "bugs": {
+    "url": "https://github.com/AparnaJoshi007/blockchain-ethereum-starter/issues"
+  },
+  "homepage": "https://github.com/AparnaJoshi007/blockchain-ethereum-starter#readme",
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {
+    "mocha": "^8.0.1"
+  },
+  "keywords": [
+    "Blockchain"
+  ]
 }
